@@ -1,5 +1,19 @@
 #summary Functions available in this library
 ==Spot functions==
+===SpotInfo(spotID:String)===
+Returns all the 'Spot' variables:
+|| activity_url	|| String  ||	
+|| address || Object ||	
+|| checkins_count || Number  ||	
+|| checkins_url || String  ||	
+|| created_at || String  ||	
+|| creator || Object  ||	
+|| description || String  ||
+|| founders || Array ||	
+
+===SpotPhotos(spotID:String)===
+===SpotEvents(spotID:String)===
+===SpotItems(spotID:String)===
 ==User functions==
 ==Item functions==
 ==Trip functions==
