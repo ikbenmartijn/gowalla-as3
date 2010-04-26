@@ -1,6 +1,6 @@
 #summary Functions available in this library
 ==Spot functions==
-===SpotInfo(spotID:String)===
+==={{{SpotInfo(spotID:String)}}}===
 Returns all the 'Spot' variables:
 || activity_url	|| String  ||	
 || address || Object ||	
