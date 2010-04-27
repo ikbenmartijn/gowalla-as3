@@ -1,13 +1,9 @@
 #summary Functions available in this library
 ==Spot functions==
-==={{{SpotInfo(spotID:String)}}}===
-Returns all the 'Spot' variables
-==={{{SpotPhotos(spotID:String)}}}===
-Returns an array of photos from the spot
-==={{{SpotEvents(spotID:String)}}}===
-Returns an array of recents check-ins at the spot
-==={{{SpotItems(spotID:String)}}}===
-Returns an array of items you can pick up at the spot. Random assigned items are impossible to detect!
+||{{{SpotInfo(spotID:String)}}}||Returns all the 'Spot' variables||
+||{{{SpotPhotos(spotID:String)}}}||Returns an array of photos from the spot||
+||{{{SpotEvents(spotID:String)}}}||Returns an array of recents check-ins at the spot||
+||{{{SpotItems(spotID:String)}}}||Returns an array of items you can pick up at the spot.Random assigned items are impossible to detect!||
 ==User functions==
 ==Item functions==
 ==Trip functions==
