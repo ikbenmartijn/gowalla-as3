@@ -27,4 +27,4 @@
 
 ==Category functions==
 
-||{{{ItemInfo(itemID:String)}}}||Returns all the info about an item||
+||{{{CategoryInfo(itemID:String)}}}||Returns all the info about a spot category||
