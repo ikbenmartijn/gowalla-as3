@@ -78,9 +78,15 @@ package com.ikbenmartijn.gowalla
 			return operation;
 		}
 		
-		public function UserItems(username:String):GowallaOperation
+		public function UserItemsCarrying(username:String):GowallaOperation
 		{
 			var operation:GowallaOperation = new GowallaOperation(base_url + "users/" + username + "/items");
+			return operation;
+		}
+		
+		public function UserMissingItems(username:String):GowallaOperation
+		{
+			var operation:GowallaOperation = new GowallaOperation(base_url + "users/" + username + "/items/missing");
 			return operation;
 		}
 		
@@ -111,6 +117,12 @@ package com.ikbenmartijn.gowalla
 		public function UserTrips(username:String):GowallaOperation
 		{
 			var operation:GowallaOperation = new GowallaOperation(base_url + "users/" + username + "/trips");
+			return operation;
+		}
+		
+		public function UserVaultedItems(username:String):GowallaOperation
+		{
+			var operation:GowallaOperation = new GowallaOperation(base_url + "users/" + username + "/items/vault");
 			return operation;
 		}
 		
