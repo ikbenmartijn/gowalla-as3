@@ -24,8 +24,6 @@
 */
 package com.ikbenmartijn.gowalla
 {
-	import com.adobe.serialization.json.JSON;
-	
 	import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
@@ -75,7 +73,7 @@ package com.ikbenmartijn.gowalla
 		
 		private function handleLoaderComplete(event:Event):void
 		{
-			_data = JSON.decode(_loader.data);
+			_data = _loader.data;
 			removeLoaderEventListeners();
 			handleComplete(event);
 		}
