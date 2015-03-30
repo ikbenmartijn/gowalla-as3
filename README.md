@@ -2,9 +2,9 @@ This project brings the Gowalla API to Flex/Flash developers. (*Currently this l
 
 #How to use
 ##Include this project
-  # Check-out this project using SVN into Flash Builder, you can also download the SWC file if you're not sure how to use SVN or feel uncomfortable with it.
-  # Link the library to the project you want to integrate Gowalla with. If you've downloaded the SWC-file you can add the SWC in the project's build path.
-==Create the Gowalla instance==
+- Check-out this project using SVN into Flash Builder, you can also download the SWC file if you're not sure how to use SVN or feel uncomfortable with it.
+- Link the library to the project you want to integrate Gowalla with. If you've downloaded the SWC-file you can add the SWC in the project's build path.
+##Create the Gowalla instance
 Add the following lines of code to your project.
 `
 import com.ikbenmartijn.gowalla.GowallaService;
